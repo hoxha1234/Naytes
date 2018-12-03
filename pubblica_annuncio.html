@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Reggiocase.it - Comprare, vendere, affittare immobili</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css"  href="css/slick.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/default.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+    <style type="text/css">
+    @import url("css/style.css");
+    </style>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script type="text/javascript" src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+	<!-- open graph -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@Reggiocase" />
+	<meta name="twitter:creator" content="@Reggiocase" />
+	<meta property="og:title" content="Reggiocase.it - Comprare, vendere, affittare immobili" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://reggiocase.it" />
+	<meta property="og:image" content="img/scarica-gratuitamente.jpg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+</head>
+<body>
+<div class="page_loader"></div>
+
+	
+<!-- Main header start -->
+<header class="main-header fixed-top">
+		<div class="container main-header d-none d-lg-block d-xl-block">
+			<nav class="navbar navbar-inverse bg-inverse navbar-light">
+				<a class="navbar-brand logo" href="index.html">
+					<img src="img/logos/REGGIOCASE_LOGO.svg" alt="logo">
+				</a>
+				<div class="navbar d-flex align-items-center">
+					<div class="navbar-item d-none d-lg-block d-xl-block">
+						<a href="submit-property.html" class="nav-link link-color call-to-actionheader"><i class="fa fa-plus-circle"></i> &nbspPubblica</a>
+					</div>
+					<div class="dropdown d-none d-lg-block d-xl-block">
+						<div class="nav-item" aria-labelledby="navbarSupportedContent">
+							<a class="dropdown-item" href="#"><i class="fa fa-user"></i> Accedi &#9662;</a></i>
+						</div>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="my-properties.html"><i class="flaticon-internet"></i> Tuoi annunci</a></li>
+							<li><a class="dropdown-item" href="favorited-properties.html"><i class="flaticon-favorite"></i> Preferiti</a></li>
+							<li><a class="dropdown-item" href="ricerche-salvate.html"><i class="fa fa-search"></i> Ricerche salvate</a></li>
+							<li><a class="dropdown-item" href="my-profile.html"><i class="flaticon-people"></i> Profilo</a></li>
+						</ul>
+					</div>
+					<div class="dropdown d-lg-none d-none d-lg-block d-xl-block">
+						<div class="dropdown-menu" aria-labelledby="navbarSupportedContent">
+								<a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspENG</span></a></i></a>
+						</div>
+						<div class="nav-item" aria-labelledby="navbarSupportedContent">
+								<a class="dropdown-item" href="#"><span class="flag-icon flag-icon-it">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&#9662;</span></a></i></a>
+						</div>
+					</div>
+			</nav>
+		</div>
+		<div class="container main-header d-lg-none d-xl-none">
+				<nav class="navbar navbar-inverse bg-inverse navbar-light">
+					<a class="navbar-brand main-header logo-mobile" href="index.html">
+						<img src="img/logos/REGGIOCASE_LOGO.svg" alt="logo">
+					</a>
+						<div class="dropdown d-lg-none d-xl-none">
+							<div class="nav-item" aria-labelledby="navbarSupportedContent">
+								<a class="dropdown-item" href="#"><i class="fa fa-user"></i>&#9662;</a></i>
+							</div>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="my-properties.html"><i class="flaticon-internet"></i> Tuoi annunci</a></li>
+								<li><a class="dropdown-item" href="favorited-properties.html"><i class="flaticon-favorite"></i> Preferiti</a></li>
+								<li><a class="dropdown-item" href="ricerche-salvate.html"><i class="fa fa-search"></i> Ricerche salvate</a></li>
+								<li><a class="dropdown-item" href="my-profile.html"><i class="flaticon-people"></i> Profilo</a></li>
+							</ul>
+						</div>  
+						<div class="nav-item dropdown">
+							<div class="dropdown-menu" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspENG</span></a>
+							</div>
+							<div class="nav-item" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-it">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></a>
+							</div>
+						</div>                    
+				</nav>
+			</div>
+</header>
+<!-- Main header end -->
+<!-- Submit Property start -->
+<div class="container  toplogofix1">
+	<div class="notification-step">
+		<ol class="progtrckr" data-progtrckr-steps="3">
+				<span class="step">Descrizione</span> <li class="stato-attivo"></li>
+				<span class="step">Verifica</span><li class="stato-non-attivo"></li>
+				<span class="step">Conferma</span><li class="stato-non-attivo"></li>
+		</ol><br>
+	</div>		
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9 col-md-12 col-sm-12">
+				<form>
+				<h3 class="heading-2">Contratto</h3>
+				<div class="bd-example">
+						<div class="custom-control custom-radio custom-control-inline">
+						  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+						  <label class="custom-control-label" for="customRadioInline1">Vendita</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+						  <label class="custom-control-label" for="customRadioInline2">Affitto</label>
+						</div>
+				</div>
+						<div class="form-row">
+								<div class="form-group col-md-4">
+										<label for="inputState">*Tipologia</label>
+										<select id="inputState" class="form-control" required>
+											<option value="118">Monolocale</option>
+											<option value="653">Bilocale</option>
+											<option value="1259">Trilocale</option>
+											<option value="120">Appartamento</option>
+											<option value="121">Maisonette</option>
+											<option value="127">Porzione di casa</option>
+											<option value="470">Mansarda</option>
+											<option value="755">Loft</option>
+											<option value="437">Attico</option>
+											<option value="122">Villetta a schiera</option>
+											<option value="123">Villa abbinata</option>
+											<option value="539">Villa singola</option>
+											<option value="840">Stabile/Palazzo</option>
+											<option value="1260">Casa singola</option>
+											<option value="125">Rustico/Casale</option>
+											<option value="1303">Immobili di pregio</option>
+											<option value="1302">Casa Vacanze</option>
+											<option value="515">Garage/Box Auto</option>
+										</select>
+								</div>
+								<div class="form-group col-md-4">
+										<label for="inputState">Stato immobile</label>
+										<select id="inputState" class="form-control" required>
+										  <option selected>Seleziona...</option>
+										  <option value="513">Da sistemare</option>
+										  <option value="512">Da ristrutturare</option>
+										  <option value="511">Ristrutturato</option>
+										  <option value="510">Nuovo</option>
+										  <option value="509">In buone condizioni</option>
+										  <option value="508">In costruzione</option>
+										  <option value="507">Non rilevato</option>
+										  <option value="562">Di recente costruzione</option>
+										  <option value="569">In discrete condizioni</option>
+										  <option value="750">In ottime condizioni</option>
+										  <option value="1291">Al grezzo</option>
+										</select>
+								</div>
+								<div class="form-group col-md-4">
+										<label for="inputState">*Comune</label>
+										<select id="inputState" class="form-control" required>
+												<option value="10275">REGGIO EMILIA</option>
+												<option value="14933">Albinea</option>
+												<option value="761">Bagnolo in Piano</option>
+												<option value="780">Baiso</option>
+												<option value="1133">Bibbiano</option>
+												<option value="1305">Boretto</option>
+												<option value="1570">Brescello</option>
+												<option value="14931">Cadelbosco di Sopra</option>
+												<option value="1985">Campagnola Emilia</option>
+												<option value="14935">Campegine</option>
+												<option value="14944">Canossa</option>
+												<option value="14945">Carpineti</option>
+												<option value="2548">Casalgrande</option>
+												<option value="2669">Casina</option>
+												<option value="14946">Castellarano</option>
+												<option value="14947">Castelnovo di Sotto</option>
+												<option value="2993">Castelnovo nè Monti</option>
+												<option value="3232">Cavriago</option>
+												<option value="4096">Correggio</option>
+												<option value="4605">Fabbrico</option>
+												<option value="14948">Gattatico</option>
+												<option value="14949">Gualtieri</option>
+												<option value="5796">Guastalla</option>
+												<option value="6600">Luzzara</option>
+												<option value="7701">Montecchio Emilia</option>
+												<option value="14950">Novellara</option>
+												<option value="9885">Poviglio</option>
+												<option value="10138">Quattro Castella</option>
+												<option value="10276">Reggiolo</option>
+												<option value="14951">Rio Saliceto</option>
+												<option value="10659">Rolo</option>
+												<option value="10829">Rubiera</option>
+												<option value="11512">San Martino in Rio</option>
+												<option value="11537">San Polo d'Enza</option>
+												<option value="11646">Sant'Ilario d'Enza</option>
+												<option value="12270">Scandiano</option>
+												<option value="12904">Toano</option>
+												<option value="15119">Traversetolo</option>
+												<option value="25907">Ventasso</option>
+												<option value="14084">Vetto</option>
+												<option value="14285">Vezzano sul Crostolo</option>
+												<option value="14425">Viano</option>
+												<option value="14428">Villa Minozzo</option>
+										  <option>...</option>
+										</select>
+								</div>
+								<div class="form-group col-md-4">
+										<label for="inputState">Zona</label>
+										<select id="inputState" class="form-control" required>
+										  <option value="24545">Acque Chiare</option>
+										  <option value="14952">Bagno</option>
+										  <option value="14904">Baragalla</option>
+										  <option value="14905">Buco del Signore</option>
+										  <option value="14954">Cadè</option>
+										  <option value="14955">Canali</option>
+										  <option value="14986">Canalina</option>
+										  <option value="14996">Cavazzoli</option>
+										  <option value="14958">Cella</option>
+										  <option value="14959">Centro Storico</option>
+										  <option value="14990">Circonvallazione</option>
+										  <option value="14960">Codemondo</option>
+										  <option value="14927">Corte Tegge</option>
+										  <option value="14963">Coviolo</option>
+										  <option value="14964">Due Maestà</option>
+										  <option value="14994">Ex Dogana</option>
+										  <option value="14965">Fogliano</option>
+										  <option value="14907">Foscato</option>
+										  <option value="14966">Gaida</option>
+										  <option value="14908">Gardenia</option>
+										  <option value="14910">Gattaglio</option>
+										  <option value="14967">Gavassa</option>
+										  <option value="14968">Gavasseto</option>
+										  <option value="14911">Mancasale</option>
+										  <option value="14970">Marmirolo</option>
+										  <option value="14971">Masone</option>
+										  <option value="14972">Massenzatico</option>
+										  <option value="24546">Meridiana</option>
+										  <option value="25891">Mirabello</option>
+										  <option value="14912">Orologio</option>
+										  <option value="14991">Ospedale</option>
+										  <option value="14913">Ospizio</option>
+										  <option value="14914">Papagnocca</option>
+										  <option value="14915">Pieve Modolena</option>
+										  <option value="24778">Piscina</option>
+										  <option value="14988">Porta Castello</option>
+										  <option value="14974">Pratofontana</option>
+										  <option value="14985">Quinzio</option>
+										  <option value="14916">Reggiane</option>
+										  <option value="14917">Regina Pacis</option>
+										  <option value="14975">Rivalta</option>
+										  <option value="14992">Roncina</option>
+										  <option value="14977">Roncocesi</option>
+										  <option value="14919">Rosta Nuova</option>
+										  <option value="14980">Sabbione</option>
+										  <option value="14978">San Bartolomeo, Ghiardello</option>
+										  <option value="14920">San Maurizio</option>
+										  <option value="14921">San Pellegrino</option>
+										  <option value="14922">San Prospero</option>
+										  <option value="14979">San Rigo</option>
+										  <option value="14923">Santa Croce-Campovolo</option>
+										  <option value="14982">Sesso</option>
+										  <option value="24500">Stadio-Petali</option>
+										  <option value="14989">Stazione</option>
+										  <option value="24806">Tondo</option>
+										  <option value="15150">Tribunale</option>
+										  <option value="24807">Via Che Guevara</option>
+										  <option value="15156">Via Emilia all'Angelo</option>
+										  <option value="24783">Via Gramsci</option>
+										  <option value="14995">Via Kennedy</option>
+										  <option value="24450">Viale Risorgimento</option>
+										  <option value="14993">Viale Umberto I</option>
+										  <option value="14987">Villa Verde - Villa al Poggio</option>
+										  <option value="24547">Villaggio Architetti</option>
+										  <option value="14924">Villaggio Crostolo</option>
+										  <option value="24240">Villaggio Manenti</option>
+										  <option value="15066">Villaggio Olimpia</option>
+										  <option value="14925">Villaggio Stranieri</option>
+										  <option value="14930">Zona Annonaria</option>
+										</select>
+								</div>
+								<div class="form-group col-md-4">
+						  <label for="inputAddress">Indirizzo</label>
+						  <input type="text" class="form-control" id="inputAddress" placeholder="Via Allegri">
+								</div>
+								<div class="form-group col-md-4">
+						  <label for="inputAddress2">Superficie</label>
+						  <div class="input-group">
+                                <span class="input-group-addon btn-brr btn-secondary-sm">mq </span>
+                                <input type="text" class="form-control" placeholder="mq">
+                            </div>
+								</div>
+								<div class="form-group col-md-4">
+										<label for="inputAddress2">Prezzo</label>
+										<div class="input-group">
+											  <span class="input-group-addon btn-brr btn-secondary-sm">€ </span>
+											  <input type="text" class="form-control" placeholder="€uro">
+										  </div>
+								</div>
+								<div class="form-group col-md-4">
+										<br><strong>Trattativa riservata</strong></br>
+										<input class="check-input" type="checkbox" id="gridCheck">
+										<label class="check-label" for="gridCheck">
+										Nascondi il prezzo
+										</label>
+								</div>
+								<div class="form-group col-md-4">
+										<label for="inputAddress2">Spese cond. Annue</label>
+										<div class="input-group">
+											  <span class="input-group-addon btn-brr btn-secondary-sm">€ </span>
+											  <input type="text" class="form-control" placeholder="€uro">
+										</div>
+								</div>
+								<div class="form-group col-md-4">
+										<label for="inputState">Classe energetica</label>
+										<select id="inputState" class="form-control">
+												<option selected>Seleziona...</option>
+												<option value="A+">A+</option>
+												<option value="A">A</option>
+												<option value="B">B</option>
+												<option value="C">C</option>
+												<option value="D">D</option>
+												<option value="E">E</option>
+												<option value="F">F</option>
+												<option value="G">G</option>
+										</select>
+								</div>
+								<div class="form-group col-md-4">
+										<label for="inputAddress">IPE (kWh/mq anno)</label>
+										<input type="text" class="form-control" id="inputAddress" placeholder="00000">
+								</div>
+							</div>
+							<h3 class="heading-2 plan-button1">Ulteriori caratteristiche</h3>
+							<div class="form-row">
+									<div class="form-group col-md-4">
+											<label for="inputState">Vani</label>
+											<input type="text" class="form-control" placeholder="Vani">
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">N. camere da letto</label>
+											<select id="inputState" class="form-control">
+													<option selected>Seleziona...</option>
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4 o più">4 o più</option>
+											</select>
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Bagni</label>
+											<input type="text" class="form-control" placeholder="Vani">
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Terrazzi/Logge</label>
+											<input type="text" class="form-control" placeholder="Vani">
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Tipo di Cucina</label>
+											<select id="inputState" class="form-control">
+											  <option selected>Seleziona...</option>
+											  <option value="873">Abitabile</option>
+			                			      <option value="874">Cucinotto</option>
+			                			      <option value="875">Angolo Cottura</option>
+			                			      <option value="876">Aperta</option>
+			                			      <option value="1377">Non Indicato</option>
+											</select>
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Riscaldamento</label>
+											<select id="inputState" class="form-control">
+											  <option selected>Seleziona...</option>
+											  <option value="1258">Non presente</option>
+			                  			      <option value="870">Centralizzato</option>
+			                  			      <option value="871">Autonomo</option>
+			                  			      <option value="872">Teleriscaldamento</option>
+			                  			      <option value="1120">A pavimento</option>
+			                  			      <option value="1301">Centralizzato - Contacalorie</option>
+											</select>
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Condizionamento</label>
+											<select id="inputState" class="form-control">
+											  <option selected>Seleziona...</option>
+											  <option value="873">Abitabile</option>
+			                			      <option value="874">Cucinotto</option>
+			                			      <option value="875">Angolo Cottura</option>
+			                			      <option value="876">Aperta</option>
+			                			      <option value="1377">Non Indicato</option>
+											</select>
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Piano</label>
+											<select id="inputState" class="form-control">
+													<option selected>Seleziona...</option>
+													<option value="1481">Su più livelli</option>
+			                			            <option value="866">Terra</option>
+			                			            <option value="1121">Rialzato</option>
+			                			            <option value="865">1</option>
+			                			            <option value="867">2</option>
+			                			            <option value="868">3</option>
+			                			            <option value="869">4</option>
+			                			            <option value="1383">5</option>
+			                			            <option value="1385">6</option>
+			                			            <option value="1387">7</option>
+			                			            <option value="1389">8</option>
+			                			            <option value="1391">9</option>
+			                			            <option value="1393">10</option>
+			                			            <option value="1395">Oltre il 10°</option>
+											</select>
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Piano totali</label>
+											<select id="inputState" class="form-control">
+													<option selected>Seleziona...</option>
+													<option value="1220">2</option>
+													<option value="1263">3</option>
+													<option value="1264">4</option>
+													<option value="1265">5</option>
+													<option value="1266">6</option>
+													<option value="1267">7</option>
+													<option value="1268">8</option>
+													<option value="1269">9</option>
+													<option value="1270">10</option>
+											</select>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="check-input" type="checkbox" id="gridCheck">
+											<label class="check-label" for="gridCheck">
+											Ingresso indipendente
+											</label>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="check-input" type="checkbox" id="gridCheck">
+											<label class="check-label" for="gridCheck">
+											Cantima
+											</label>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="check-input" type="checkbox" id="gridCheck">
+											<label class="check-label" for="gridCheck">
+											Garage
+											</label>
+									</div>
+									<div class="form-group col-md-4">
+											<label for="inputState">Posto Auto</label>
+											<select id="inputState" class="form-control">
+												<option value="">Seleziona: </option>
+			              			            <option value="S">Privato</option>
+			              			            <option value="O">Coperto</option>
+			              			            <option value="C">Condominiale</option>
+			              			            <option value="N">No</option>
+											</select>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="check-input" type="checkbox" id="gridCheck">
+											<label class="check-label" for="gridCheck">
+											Solaio
+											</label>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="check-input" type="checkbox" id="gridCheck">
+											<label class="check-label" for="gridCheck">
+											Ripostiglio
+											</label>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="check-input" type="checkbox" id="gridCheck">
+											<label class="check-label" for="gridCheck">
+											Lavanderia
+											</label>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="checkbox" type="checkbox" id="gridCheck">
+											<label class="checkbox" for="gridCheck">
+											Panelli solari
+											</label>
+									</div>
+									<div class="form-group col-md-4">
+											<input class="check-input" type="checkbox" id="gridCheck">
+											<label class="check-label" for="gridCheck">
+											Ascensore
+											</label>
+									</div>									
+								</div>
+								<h3 class="heading-2 plan-button1">Immagini</h3>
+								<div id="myDropZone" class="dropzone dropzone-design uploadprogress canceled mb-50">
+									<div class="dz-default dz-message uploadprogress canceled"><span>Trascina qui i file da caricare</span></div>
+								</div>
+								<h3 class="heading-2">Descrizione testuale</h3>
+								<div class="form-row">
+										<div class="form-group col-md-12">
+												<div class="form-group">
+														<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+												</div>
+										</div>										
+									</div>
+									<div class="form-group col-md-12">
+											<div class="form-group">
+													*I campi contrassegnati con asterisco sono obbligatori. 
+											</div>
+									</div>
+						<div class="form-group col-md-4">
+						<button type="submit" class="btn-md button-theme btn-block">Conferma</button>
+						</div>
+				</form>												
+
+		</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12 d-none d-lg-block d-xl-block">
+				<div class="notification-box">
+						<div class="mb-40">
+								<h3>Sei un Agenzia?</h3>
+								<p>Non sei ancora nostro cliente, Consulta i nostri servizi. </p>
+								<br>
+								<a href="agenzie.html">
+									<div class="send-btn text-center">
+									<button type="submit" class="btn btn-sm left button-theme">Clicca qui</button>
+									</div>
+								</a>
+							</div>	
+						<div class="mb-40">
+								<h3>Pubblica annuncio Commerciale </h3>
+								<p>Vuoi pubblicare un annuncio commerciale?</p>
+							<br>
+								<a href="pubblica_ann_comm.html">
+									<div class="send-btn text-center">
+									<button type="submit" class="btn btn-sm left button-theme">Clicca qui</button>
+									</div>
+								</a>
+						</div>
+						<div class="mb-40">
+								<h3>Pubblica annuncio Posto Letto</h3>
+								<p>Vuoi pubblicare un annuncio posto letto? </p>
+								<br>
+								<a href="pubblica_ann_posto.html">
+									<div class="send-btn text-center">
+										<button type="submit" class="btn btn-sm left button-theme">Clicca qui</button>
+									</div>
+								</a>
+						</div>
+				</div>	
+            </div>
+		</div>
+	</div>
+</div>
+<!-- Submit Property end -->
+<!-- Footer start -->
+<footer class="footer">
+		<div class="container footer-inner">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-item">
+						<h4>
+							Reggiocase.it
+						</h4>
+						<ul class="links">
+							<li>
+								<a href="chi_siamo.html" title="Chi siamo"><i class="fa fa-angle-right"></i>Chi siamo</a>
+							</li>
+							<li>
+								<a href="blog.html" title="Blog"><i class="fa fa-angle-right"></i>Notizie</a>
+							</li>
+							<li>
+								<a href="rivista_immobiliare.html" title="Rivista immobiliare"><i class="fa fa-angle-right"></i>Rivista immobiliare</a>
+							</li>
+							<li>
+									<a href="residenziali.html" title="Residenziale"><i class="fa fa-angle-right"></i>Residenziale</a>
+								</li>
+								<li>
+									<a href="cantieri.html" title="Nuove costruzioni"><i class="fa fa-angle-right"></i>Nuove costruzioni</a>
+								</li>
+								<li>
+									<a href="commerciali.html" title="Commerciale"><i class="fa fa-angle-right"></i>Commerciale</a>
+								</li>
+								<li>
+									<a href="posto_letto.html" title="Posto letto"><i class="fa fa-angle-right"></i>Posto letto</a>
+								</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-item">
+						<h4>
+							Agenzie e costruttori
+						</h4>
+						<ul class="links">
+							<li>
+								<a href="login.html" title="Accedi"><i class="fa fa-angle-right"></i>Accedi</a>
+							</li>
+							<li>
+								<a href="agenzie.html" title="Scopri i nostri servizi"><i class="fa fa-angle-right"></i>Scopri i nostri servizi</a>
+							</li>
+							<li>
+								<a href="aggregatori_immobiliari.html" title="Agregatori immobiliari"><i class="fa fa-angle-right"></i>Agregatori immobiliari</a>
+							</li>
+							<li>
+								<a href="gestionali_sincronizzati.html" title="Gestionali sincronizzati"><i class="fa fa-angle-right"></i>Gestionali sincronizzati</a>
+							</li>
+							<li>
+								<a href="quotazione_immobili_residenziale_reggio_emilia.html" title="Quotazioni immobili residenziali"><i class="fa fa-angle-right"></i>Quotazioni immobili residenziali</a>
+							</li>
+							<li>
+								<a href="quotazione_immobili_commerciali_reggio_emilia.html" title="Quotazioni immobili commerciali"><i class="fa fa-angle-right"></i>Quotazioni immobili commerciali</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-item">
+						<h4>
+							Utenti privati
+						</h4>
+						<ul class="links">
+							<li>
+								<a href="submit-property.html" title="Inserisci un annuncio gratis"><i class="fa fa-angle-right"></i>Inserisci un annuncio gratis</a>
+							</li>
+							<li>
+								<a href="servizio_segnala_cosa_cerca.html" title="Segnala cosa cerchi"><i class="fa fa-angle-right"></i>Segnala cosa cerchi</a>
+							</li>
+							<li>
+								<a href="guida_immobiliare.html" title="Guida immobiliare"><i class="fa fa-angle-right"></i>Guida immobiliare</a>
+							</li>
+							<li>
+								<a href="https://pdf.imgr.it/?url=https://www.reggiocase.it/allegaticlasse/80478905.pdf&title=Rivista Reggiocase Luglio 2018.pdf" title="Sfoglia la rivista  online"><i class="fa fa-angle-right"></i>Sfoglia la rivista online</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-item">
+						<h4>Social</h4>
+						<div class="Subscribe">
+						<ul class="social-list clearfix">
+							<li><a href="https://www.facebook.com/Reggiocase" class="facebook"><i class="fa fa-facebook fa-2x"></i></a></li>
+							<li><a href="https://www.instagram.com/reggiocase/" class="instagram"><i class="fa fa-instagram fa-2x"></i></a></li>
+							<li><a href="https://plus.google.com/u/0/+reggiocase" class="google"><i class="fa fa-google-plus fa-2x"></i></a></li>
+							<li><a href="https://www.youtube.com/c/reggiocase" class="youtube"><i class="fa fa-youtube fa-2x"></i></a></li>
+							<li><a href="https://twitter.com/Reggiocase" class="twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
+							<!-- <li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li> -->
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-xl-12">
+					<p class="copy1">© 2018 Reggiocase.it » Iniziativa Editoriale Naytes » Via Emilia all'Angelo, 33/d - 42124 Reggio Emilia Tel. 0522/308342 » P.Iva/C.f. 02781800350 » Rea RE-313127 » <a href="/privacy.php" class="policy_privacy">Privacy policy</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- Footer end -->
+
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/rangeslider.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/wow.min.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/leaflet.js"></script>
+<script  src="js/leaflet-providers.js"></script>
+<script  src="js/leaflet.markercluster.js"></script>
+<script  src="js/dropzone.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/jquery.magnific-popup.min.js"></script>
+<script  src="js/jquery.countdown.js"></script>
+<script  src="js/maps.js"></script>
+<script  src="js/app.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>

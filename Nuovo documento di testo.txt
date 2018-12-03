@@ -1,0 +1,4 @@
+spogliatoio 	= fa fa-shower
+380V 		= fa fa-plug
+Alto Passaggio  = fa fa-users 
+Area Cortiliva  = fa fa-tree 

@@ -1,0 +1,41 @@
+Meta tag, meta description, e tutti i campi og: prendere dalla realizzazione in essere se mancano chiedere a Simone
+
+index.html Home Page
+1. Escludere scrollerUP da Homepage (Ci chiediamo anche se è meglio cestinarlo dalla versione mobile, disturba)
+2. Slider Desk e Mobile sotto la ricerca, le fotografie si devono cambiare ad ogni refresh pagina
+3. Nelle sezione Accedi, Calcola Mutuo, Rivista immobiliare, Privacy Policy gestione al click e/o scopri di più con finestra modale
+4. Nella sezione Occasioni immobiliari logica di caricamento annunci da chiedere a Simone
+
+Le sezioni sotto riportate in tutto il sito:
+Login, Rata mutuo, Note, Stampa, Segnala Errori, Chiama, E-mail, Preferiti, Condividi
+gestione al click con finestra modale
+
+INDICAZIONE RATA MUTUO CREDIPASS
+Calcola mutuo pagina da prendere indicazioni Integrazione_BoxRata.pdf
+
+properties-list-rightside.html
+Campo zona deve essere autocompilazione
+
+agent-dettaglio.html
+Filtro immobili in Vendita o in affitto con la modalità TAG #vendite #affitti
+
+agent-dettaglio.html
+Aperto oggi deve aggiornasi l'elenco in base alla giorno nel quelle siamo
+
+
+properties-details.html
+1. Versione mobile e desktop le sezioni: Login, Rata mutuo, Note, Stampa, Segnala Errori, Chiama, E-mail, Preferiti, Condividi. Si devono aprire in finestra modale
+2. Al click sulla foto del slider si apre in modale la pagina slider.html full screen (versione mobile E-mail e Preferiti e Condividi si devono aprire in finestra modale)
+
+
+valuta_il_tuo_immobile.html
+Possibilità di selezionare una solo tipologia Residenziale Commerciali Posto Letto 
+Form uguali come vecchio sito strutturare come da nuova layout di esempio
+
+Ricerca sulla mappa da costruire come immobiliare.it non sono stato in grado di fare molto da non considerare il tentativo (mappa.html)
+
+
+Header e Footer corretto nella index.html considerare che ho creato due tipi di main (Header utente logato visionate pagina my-profile.html)
+1. quello standard (container)
+2. quello dove sono presenti filtri di ricerca (container-src). In questo caso bisogna corregere il container di Header e Footer presa da index.html
+
